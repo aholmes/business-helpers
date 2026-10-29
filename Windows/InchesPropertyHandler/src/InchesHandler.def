@@ -1,0 +1,4 @@
+LIBRARY InchesPropertyHandler
+EXPORTS
+    DllGetClassObject   PRIVATE
+    DllCanUnloadNow     PRIVATE

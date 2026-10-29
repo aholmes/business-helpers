@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- formatID/propID must match PKEY_Inches_Dimensions in src/InchesHandler.cpp -->
+<schema xmlns="http://schemas.microsoft.com/windows/2006/propertydescription" schemaVersion="1.0">
+  <propertyDescriptionList publisher="InchesHandler" product="InchesPropertyHandler">
+
+    <propertyDescription name="InchesHandler.Image.Dimensions"
+                         formatID="{3AF33E32-8AE8-4B1E-BA39-340A1D46E3D0}" propID="2">
+      <searchInfo inInvertedIndex="false" isColumn="true" columnIndexType="NotIndexed" />
+      <labelInfo label="Dimensions (inches)" />
+      <typeInfo type="String" isInnate="true" isViewable="true" />
+      <displayInfo displayType="String" defaultColumnWidth="16" />
+    </propertyDescription>
+
+  </propertyDescriptionList>
+</schema>
